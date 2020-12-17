@@ -1,8 +1,8 @@
 module.exports = {
   ci: {
     collect: {
-      startServerCommand: 'npm run start',
-	  url: ['http://localhost:4200']
+	  url: ['http://localhost:4200/'],
+      startServerCommand: 'npm run start'
     },
 	assert: {
 		assertions: {
