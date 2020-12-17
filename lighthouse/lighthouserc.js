@@ -2,7 +2,7 @@ module.exports = {
   ci: {
     collect: {
 	  url: ['http://localhost:4200/'],
-      startServerCommand: 'npm run start'
+      startServerCommand: 'cd ./lighthouse && npm start'
     },
 	assert: {
 		assertions: {
